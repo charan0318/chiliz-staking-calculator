@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chiliz Staking Calculator</title>
+
+    <!-- Social Media / Open Graph Meta Tags -->
+    <meta property="og:title" content="Chiliz Staking Calculator" />
+    <meta property="og:description" content="Estimate your potential earnings from staking CHZ with this easy-to-use calculator." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://t.me/Chiliz_Calculator_Bot/staking/" />
+    <meta property="og:image" content="https://i.ibb.co/9gC44X1/chiliz-og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Chiliz Staking Calculator" />
+    <meta name="twitter:description" content="Estimate your potential earnings from staking CHZ with this easy-to-use calculator." />
+    <meta name="twitter:image" content="https://i.ibb.co/9gC44X1/chiliz-og-image.png" />
+
+    <script>
+      // Prevents "flash of unstyled content" by applying the theme before React loads.
+      (function() {
+        const theme = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        // Use dark mode if theme is 'dark', or if theme is not 'light' (i.e. 'system' or unset) and the OS prefers dark.
+        const isDark = theme === 'dark' || (theme !== 'light' && prefersDark);
+        if (isDark) {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+      })();
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      // This configures Tailwind CSS to use the 'class' strategy for dark mode.
+      // This is essential for the theme switcher to work correctly.
+      tailwind.config = {
+        darkMode: 'class',
+      }
+    </script>
+    <style>
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(1rem) scale(0.98);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0) scale(1);
+        }
+      }
+      .animate-fade-in-up {
+        animation: fadeInUp 0.3s ease-out forwards;
+      }
+      @keyframes glowing-spotlight {
+        0% {
+          box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.6), 0 0 8px 2px rgba(231, 5, 89, 0.7);
+        }
+        50% {
+          box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.6), 0 0 20px 6px rgba(231, 5, 89, 1);
+        }
+        100% {
+          box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.6), 0 0 8px 2px rgba(231, 5, 89, 0.7);
+        }
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "recharts": "https://esm.sh/recharts@2.12.7?external=react",
+    "prop-types": "https://esm.sh/prop-types@15.8.1",
+    "moralis": "https://esm.sh/moralis@2.26.1",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-gray-50 dark:bg-black">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+{
+  "name": "Chiliz Staking Calculator",
+  "description": "A web application to calculate potential staking rewards for Chiliz (CHZ), inspired by the official Chiliz Chain Governance color scheme and a popular Telegram calculator bot.",
+  "requestFramePermissions": []
+}
