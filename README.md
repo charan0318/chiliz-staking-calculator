@@ -8,7 +8,8 @@
 
 A powerful, real-time staking rewards calculator for Chiliz (CHZ) blockchain validators. Calculate potential earnings, compare validators, and plan your staking strategy with live data.
 
-![Chiliz Staking Calculator Preview](https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6)
+<img width="1500" height="500" alt="ChilizenHQ (1)" src="https://github.com/user-attachments/assets/9b8f76ec-779d-4072-9220-207c94f7a7f3" />
+
 
 ---
 
