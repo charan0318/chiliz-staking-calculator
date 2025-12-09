@@ -1,3 +1,4 @@
+
 import type { Validator } from '../types';
 
 /**
@@ -9,29 +10,29 @@ export const KNOWN_VALIDATORS: Validator[] = [
   {
     "address": "0x31d...B074",
     "name": "Luganodes",
-    "apr": 17.17,
+    "apr": 17.21,
     "commission": 10,
     "jailed": false,
     "logo": "https://assets-staking.chiliz.com/images/validators/luganodes.webp",
-    "votingPowerChz": 269825228.175,
-    "votingPowerPercent": 10.34,
+    "votingPowerChz": 271186988.478,
+    "votingPowerPercent": 10.35,
     "type": "Main",
     "twitterHandle": "Luganodes",
     "achievements": [
       "Institutional-grade staking provider.",
       "High availability infrastructure.",
-      "Top 3 Validator by Voting Power."
+      "Top Validator by Voting Power."
     ]
   },
   {
     "address": "0x8d9...2820",
     "name": "OKX",
-    "apr": 17.06,
+    "apr": 17.91,
     "commission": 1,
     "jailed": false,
     "logo": "https://assets-staking.chiliz.com/images/validators/okx.webp",
-    "votingPowerChz": 238311415.568,
-    "votingPowerPercent": 9.13,
+    "votingPowerChz": 223664783.849,
+    "votingPowerPercent": 8.54,
     "type": "Main",
     "twitterHandle": "okx",
     "achievements": [
@@ -41,31 +42,14 @@ export const KNOWN_VALIDATORS: Validator[] = [
     ]
   },
   {
-    "address": "0xa90...A00e",
-    "name": "Allnodes",
-    "apr": 15.93,
-    "commission": 5,
-    "jailed": false,
-    "logo": "https://assets-staking.chiliz.com/images/validators/allnodes.webp",
-    "votingPowerChz": 226982097.753,
-    "votingPowerPercent": 8.7,
-    "type": "Main",
-    "twitterHandle": "Allnodes",
-    "achievements": [
-      "Non-custodial hosting/staking platform.",
-      "User-friendly interface.",
-      "Competitive 5% commission."
-    ]
-  },
-  {
     "address": "0xEcB...3187",
     "name": "InfStones",
-    "apr": 17.26,
+    "apr": 17.65,
     "commission": 10,
     "jailed": false,
     "logo": "https://assets-staking.chiliz.com/images/validators/infstones.webp",
-    "votingPowerChz": 212519199.175,
-    "votingPowerPercent": 8.15,
+    "votingPowerChz": 223659051.535,
+    "votingPowerPercent": 8.54,
     "type": "Main",
     "twitterHandle": "infstones",
     "achievements": [
@@ -75,31 +59,31 @@ export const KNOWN_VALIDATORS: Validator[] = [
     ]
   },
   {
-    "address": "0xBf9...0B5f",
-    "name": "Paribu",
-    "apr": 17.59,
+    "address": "0xa90...A00e",
+    "name": "Allnodes",
+    "apr": 17.21,
     "commission": 5,
     "jailed": false,
-    "logo": "https://assets-staking.chiliz.com/images/validators/paribu.webp",
-    "votingPowerChz": 208125217.173,
-    "votingPowerPercent": 7.98,
+    "logo": "https://assets-staking.chiliz.com/images/validators/allnodes.webp",
+    "votingPowerChz": 211854464.844,
+    "votingPowerPercent": 8.08,
     "type": "Main",
-    "twitterHandle": "ParibuCom",
+    "twitterHandle": "Allnodes",
     "achievements": [
-      "Leading Turkish cryptocurrency exchange.",
-      "Strong regional presence.",
-      "Reliable validator node."
+      "Non-custodial hosting/staking platform.",
+      "User-friendly interface.",
+      "Competitive 5% commission."
     ]
   },
   {
     "address": "0xA4c...8C4c",
     "name": "Mercado Bitcoin",
-    "apr": 17.54,
+    "apr": 16.50,
     "commission": 5,
     "jailed": false,
     "logo": "https://assets-staking.chiliz.com/images/validators/mercado-bitcoin.webp",
-    "votingPowerChz": 207034685.877,
-    "votingPowerPercent": 7.94,
+    "votingPowerChz": 209330246.636,
+    "votingPowerPercent": 7.99,
     "type": "Main",
     "twitterHandle": "MercadoBitcoin",
     "achievements": [
@@ -111,12 +95,12 @@ export const KNOWN_VALIDATORS: Validator[] = [
   {
     "address": "0xf57...51bE",
     "name": "Socios.com",
-    "apr": 16.91,
+    "apr": 17.61,
     "commission": 7,
     "jailed": false,
     "logo": "https://assets-staking.chiliz.com/images/validators/socios.webp",
-    "votingPowerChz": 205609062.537,
-    "votingPowerPercent": 7.88,
+    "votingPowerChz": 209172396.787,
+    "votingPowerPercent": 7.98,
     "type": "Main",
     "twitterHandle": "socios",
     "achievements": [
@@ -126,13 +110,30 @@ export const KNOWN_VALIDATORS: Validator[] = [
     ]
   },
   {
+    "address": "0xBf9...0B5f",
+    "name": "Paribu",
+    "apr": 17.44,
+    "commission": 5,
+    "jailed": false,
+    "logo": "https://assets-staking.chiliz.com/images/validators/paribu.webp",
+    "votingPowerChz": 209115330.59,
+    "votingPowerPercent": 7.98,
+    "type": "Main",
+    "twitterHandle": "ParibuCom",
+    "achievements": [
+      "Leading Turkish cryptocurrency exchange.",
+      "Strong regional presence.",
+      "Reliable validator node."
+    ]
+  },
+  {
     "address": "0xf84...d028",
     "name": "Meria",
-    "apr": 18.55,
+    "apr": 18.08,
     "commission": 5,
     "jailed": false,
     "logo": "https://assets-staking.chiliz.com/images/validators/meria.webp",
-    "votingPowerChz": 203714414.205,
+    "votingPowerChz": 204719445.869,
     "votingPowerPercent": 7.81,
     "type": "Main",
     "twitterHandle": "Meria_Finance",
@@ -145,11 +146,11 @@ export const KNOWN_VALIDATORS: Validator[] = [
   {
     "address": "0x84A...7aDA",
     "name": "Exaion",
-    "apr": 17.34,
+    "apr": 17.05,
     "commission": 5,
     "jailed": false,
     "logo": "https://assets-staking.chiliz.com/images/validators/exaion.webp",
-    "votingPowerChz": 181496890.196,
+    "votingPowerChz": 182499452.415,
     "votingPowerPercent": 6.96,
     "type": "Main",
     "twitterHandle": "EDFofficiel",
@@ -162,12 +163,12 @@ export const KNOWN_VALIDATORS: Validator[] = [
   {
     "address": "0x579...6404",
     "name": "Ankr",
-    "apr": 17.01,
+    "apr": 16.87,
     "commission": 7,
     "jailed": false,
     "logo": "https://assets-staking.chiliz.com/images/validators/ankr.webp",
-    "votingPowerChz": 174722405.248,
-    "votingPowerPercent": 6.7,
+    "votingPowerChz": 175102434.906,
+    "votingPowerPercent": 6.68,
     "type": "Main",
     "twitterHandle": "ankr",
     "achievements": [
@@ -179,12 +180,12 @@ export const KNOWN_VALIDATORS: Validator[] = [
   {
     "address": "0x31D...d2cf",
     "name": "Paris Saint-Germain",
-    "apr": 17.87,
+    "apr": 18.19,
     "commission": 7,
     "jailed": false,
     "logo": "https://assets-staking.chiliz.com/images/validators/psg.webp",
-    "votingPowerChz": 172899142.024,
-    "votingPowerPercent": 6.63,
+    "votingPowerChz": 173166642.983,
+    "votingPowerPercent": 6.61,
     "type": "Main",
     "twitterHandle": "PSG_inside",
     "achievements": [
@@ -196,12 +197,12 @@ export const KNOWN_VALIDATORS: Validator[] = [
   {
     "address": "0xA4c...0339",
     "name": "Animoca Brands",
-    "apr": 17.32,
+    "apr": 16.81,
     "commission": 10,
     "jailed": false,
     "logo": "https://assets-staking.chiliz.com/images/validators/animoca-brands.webp",
-    "votingPowerChz": 170026494.749,
-    "votingPowerPercent": 6.52,
+    "votingPowerChz": 169243671.299,
+    "votingPowerPercent": 6.46,
     "type": "Main",
     "twitterHandle": "animocabrands",
     "achievements": [
@@ -213,12 +214,12 @@ export const KNOWN_VALIDATORS: Validator[] = [
   {
     "address": "0xc10...d41b",
     "name": "Cointelegraph Decentralization Guardians",
-    "apr": 16.97,
+    "apr": 16.66,
     "commission": 10,
     "jailed": false,
     "logo": "https://assets-staking.chiliz.com/images/validators/coin-telegraph.webp",
-    "votingPowerChz": 158554341.178,
-    "votingPowerPercent": 6.08,
+    "votingPowerChz": 153619839.774,
+    "votingPowerPercent": 5.86,
     "type": "Main",
     "twitterHandle": "Cointelegraph",
     "achievements": [
@@ -245,7 +246,7 @@ export const KNOWN_VALIDATORS: Validator[] = [
     "commission": 7,
     "jailed": false,
     "logo": "https://assets-staking.chiliz.com/images/validators/chiliz.webp",
-    "votingPowerChz": 10025762.291,
+    "votingPowerChz": 10025826.291,
     "votingPowerPercent": 0,
     "type": "Candidate"
   },
@@ -256,7 +257,7 @@ export const KNOWN_VALIDATORS: Validator[] = [
     "commission": 7,
     "jailed": false,
     "logo": "https://assets-staking.chiliz.com/images/validators/kleague.webp",
-    "votingPowerChz": 10000768.795,
+    "votingPowerChz": 10000782.795,
     "votingPowerPercent": 0,
     "type": "Candidate"
   },
@@ -311,7 +312,7 @@ export const KNOWN_VALIDATORS: Validator[] = [
     "commission": 7,
     "jailed": false,
     "logo": "https://assets-staking.chiliz.com/images/validators/chiliz.webp",
-    "votingPowerChz": 1570.75,
+    "votingPowerChz": 1663.75,
     "votingPowerPercent": 0,
     "type": "Candidate"
   },
@@ -375,94 +376,189 @@ export const KNOWN_VALIDATORS: Validator[] = [
 
 /**
  * Pre-populated historical data snapshots to seed the user's local storage.
- * This provides an instant 4-day history on first use.
+ * This provides an instant history on first use.
  * This is an array of snapshot objects, ordered from oldest to newest, that will be assigned dynamic dates.
  * Each object now contains the total network stake for that day.
  */
 export const HISTORICAL_SNAPSHOTS_DATA = [
   {
-    totalStake: 2602330149.082,
-    validators: [
-      { name: 'Luganodes', apr: 17.23, commission: 10, netApr: 15.507, votingPowerChz: 269716424.782 },
-      { name: 'OKX', apr: 17.15, commission: 1, netApr: 16.9785, votingPowerChz: 234212213.339 },
-      { name: 'InfStones', apr: 17.09, commission: 10, netApr: 15.381, votingPowerChz: 212429211.098 },
-      { name: 'Allnodes', apr: 17.43, commission: 5, netApr: 16.5585, votingPowerChz: 209889039.271 },
-      { name: 'Paribu', apr: 16.99, commission: 5, netApr: 16.1405, votingPowerChz: 207899345.866 },
-      { name: 'Mercado Bitcoin', apr: 17.38, commission: 5, netApr: 16.511, votingPowerChz: 206950959.688 },
-      { name: 'Socios.com', apr: 16.97, commission: 7, netApr: 15.7821, votingPowerChz: 204747432.546 },
-      { name: 'Meria', apr: 19.02, commission: 5, netApr: 18.069, votingPowerChz: 203022013.58 },
-      { name: 'Exaion', apr: 17.14, commission: 5, netApr: 16.283, votingPowerChz: 181440725.694 },
-      { name: 'Ankr', apr: 17.74, commission: 7, netApr: 16.4982, votingPowerChz: 174501640.024 },
-      { name: 'Paris Saint-Germain', apr: 17.21, commission: 7, netApr: 16.0053, votingPowerChz: 172901393.997 },
-      { name: 'Animoca Brands', apr: 17.29, commission: 10, netApr: 15.561, votingPowerChz: 169981917.276 },
-      { name: 'Cointelegraph Decentralization Guardians', apr: 17.47, commission: 10, netApr: 15.723, votingPowerChz: 159102752.043 }
-    ]
-  },
-  {
-    totalStake: 2588147420.006,
-    validators: [
-      { name: 'Luganodes', apr: 17.46, commission: 10, netApr: 15.714, votingPowerChz: 267481141.54 },
-      { name: 'OKX', apr: 16.56, commission: 1, netApr: 16.3944, votingPowerChz: 234173564.863 },
-      { name: 'InfStones', apr: 17.13, commission: 10, netApr: 15.417, votingPowerChz: 212340368.106 },
-      { name: 'Allnodes', apr: 17.16, commission: 5, netApr: 16.302, votingPowerChz: 209688860.29 },
-      { name: 'Paribu', apr: 17.43, commission: 5, netApr: 16.5585, votingPowerChz: 207899345.866 },
-      { name: 'Mercado Bitcoin', apr: 17.8, commission: 5, netApr: 16.91, votingPowerChz: 206799797.83 },
-      { name: 'Meria', apr: 18.63, commission: 5, netApr: 17.6985, votingPowerChz: 202946176.582 },
-      { name: 'Socios.com', apr: 17.42, commission: 7, netApr: 16.2006, votingPowerChz: 199303187.67 },
-      { name: 'Exaion', apr: 17.26, commission: 5, netApr: 16.397, votingPowerChz: 180574519.71 },
-      { name: 'Ankr', apr: 16.96, commission: 7, netApr: 15.7728, votingPowerChz: 174501640.024 },
-      { name: 'Paris Saint-Germain', apr: 17.82, commission: 7, netApr: 16.5726, votingPowerChz: 172907008.241 },
-      { name: 'Animoca Brands', apr: 18.36, commission: 10, netApr: 16.524, votingPowerChz: 169887857.586 },
-      { name: 'Cointelegraph Decentralization Guardians', apr: 17, commission: 10, netApr: 15.3, votingPowerChz: 159068792.796 }
-    ]
-  },
-  {
-    totalStake: 2557492167.311,
-    validators: [
-      { name: 'Luganodes', apr: 18.09, commission: 10, netApr: 16.281, votingPowerChz: 266485449.951 },
-      { name: 'Paribu', apr: 17.59, commission: 5, netApr: 16.7105, votingPowerChz: 208002860.783 },
-      { name: 'Mercado Bitcoin', apr: 16.91, commission: 5, netApr: 16.0645, votingPowerChz: 206918313.431 },
-      { name: 'InfStones', apr: 17.61, commission: 10, netApr: 15.849, votingPowerChz: 206849541.832 },
-      { name: 'OKX', apr: 17.55, commission: 1, netApr: 17.3745, votingPowerChz: 204922711.469 },
-      { name: 'Meria', apr: 19.22, commission: 5, netApr: 18.259, votingPowerChz: 202175581.537 },
-      { name: 'Allnodes', apr: 17.83, commission: 5, netApr: 16.9385, votingPowerChz: 200828834.437 },
-      { name: 'Socios.com', apr: 17.34, commission: 7, netApr: 16.1262, votingPowerChz: 196671944.894 },
-      { name: 'Exaion', apr: 17.83, commission: 5, netApr: 16.9385, votingPowerChz: 180589137.583 },
-      { name: 'Ankr', apr: 18.23, commission: 7, netApr: 16.9539, votingPowerChz: 174669750.239 },
-      { name: 'Paris Saint-Germain', apr: 17.33, commission: 7, netApr: 16.1169, votingPowerChz: 173109773.168 },
-      { name: 'Animoca Brands', apr: 17.99, commission: 10, netApr: 16.191, votingPowerChz: 169834902.955 },
-      { name: 'Cointelegraph Decentralization Guardians', apr: 17.34, commission: 10, netApr: 15.606, votingPowerChz: 159044639.52 }
-    ]
-  },
-  {
-    "totalStake": 2609047326.36,
+    "totalStake": 2632537573.811,
     "validators": [
-      { "name": "Luganodes", "apr": 17.17, "commission": 10, "netApr": 15.453, "votingPowerChz": 269825228.175 },
-      { "name": "OKX", "apr": 17.06, "commission": 1, "netApr": 16.8894, "votingPowerChz": 238311415.568 },
-      { "name": "Allnodes", "apr": 15.93, "commission": 5, "netApr": 15.1335, "votingPowerChz": 226982097.753 },
-      { "name": "InfStones", "apr": 17.26, "commission": 10, "netApr": 15.534, "votingPowerChz": 212519199.175 },
-      { "name": "Paribu", "apr": 17.59, "commission": 5, "netApr": 16.7105, "votingPowerChz": 208125217.173 },
-      { "name": "Mercado Bitcoin", "apr": 17.54, "commission": 5, "netApr": 16.663, "votingPowerChz": 207034685.877 },
-      { "name": "Socios.com", "apr": 16.91, "commission": 7, "netApr": 15.7263, "votingPowerChz": 205609062.537 },
-      { "name": "Meria", "apr": 18.55, "commission": 5, "netApr": 17.6225, "votingPowerChz": 203714414.205 },
-      { "name": "Exaion", "apr": 17.34, "commission": 5, "netApr": 16.473, "votingPowerChz": 181496890.196 },
-      { "name": "Ankr", "apr": 17.01, "commission": 7, "netApr": 15.8193, "votingPowerChz": 174722405.248 },
-      { "name": "Paris Saint-Germain", "apr": 17.87, "commission": 7, "netApr": 16.6191, "votingPowerChz": 172899142.024 },
-      { "name": "Animoca Brands", "apr": 17.32, "commission": 10, "netApr": 15.588, "votingPowerChz": 170026494.749 },
-      { "name": "Cointelegraph Decentralization Guardians", "apr": 16.97, "commission": 10, "netApr": 15.273, "votingPowerChz": 158554341.178 },
-      { "name": "Chiliz Labs", "apr": 0, "commission": 7, "netApr": 0, "votingPowerChz": 10087832.625 },
-      { "name": "Chiliz 7", "apr": 0, "commission": 7, "netApr": 0, "votingPowerChz": 10025762.291 },
-      { "name": "K League", "apr": 0, "commission": 7, "netApr": 0, "votingPowerChz": 10000768.795 },
-      { "name": "ChilizX", "apr": 0, "commission": 7, "netApr": 0, "votingPowerChz": 16632.764 },
-      { "name": "Jump Crypto", "apr": 0, "commission": 7, "netApr": 0, "votingPowerChz": 14977.57 },
-      { "name": "Chiliz 10", "apr": 0, "commission": 7, "netApr": 0, "votingPowerChz": 11015.764 },
-      { "name": "Chiliz 1", "apr": 0, "commission": 7, "netApr": 0, "votingPowerChz": 10734.41 },
-      { "name": "Chiliz 2", "apr": 0, "commission": 7, "netApr": 0, "votingPowerChz": 1570.75 },
-      { "name": "Ankr - Alternate", "apr": 0, "commission": 7, "netApr": 0, "votingPowerChz": 567 },
-      { "name": "Chiliz 3", "apr": 0, "commission": 7, "netApr": 0, "votingPowerChz": 29 },
-      { "name": "Chiliz 4", "apr": 0, "commission": 7, "netApr": 0, "votingPowerChz": 20 },
-      { "name": "Validator 0x971...", "apr": 0, "commission": 10, "netApr": 0, "votingPowerChz": 250 },
-      { "name": "Validator 0x1cc...", "apr": 0, "commission": 10, "netApr": 0, "votingPowerChz": 86 }
+      { "name": "Luganodes", "apr": 17.2, "commission": 10, "netApr": 15.48, "votingPowerChz": 270047839.479 },
+      { "name": "OKX", "apr": 17.03, "commission": 1, "netApr": 16.8597, "votingPowerChz": 238102490.456 },
+      { "name": "Allnodes", "apr": 17.2, "commission": 5, "netApr": 16.34, "votingPowerChz": 227310817.904 },
+      { "name": "InfStones", "apr": 16.78, "commission": 10, "netApr": 15.102, "votingPowerChz": 212984728.319 },
+      { "name": "Paribu", "apr": 17.27, "commission": 5, "netApr": 16.4065, "votingPowerChz": 208667704.18 },
+      { "name": "Mercado Bitcoin", "apr": 17.38, "commission": 5, "netApr": 16.511, "votingPowerChz": 207675788.875 },
+      { "name": "Socios.com", "apr": 17.06, "commission": 7, "netApr": 15.8658, "votingPowerChz": 205949134.772 },
+      { "name": "Meria", "apr": 18.39, "commission": 5, "netApr": 17.4705, "votingPowerChz": 206171891.908 },
+      { "name": "Exaion", "apr": 16.56, "commission": 5, "netApr": 15.732, "votingPowerChz": 182111120.497 },
+      { "name": "Ankr", "apr": 17.17, "commission": 7, "netApr": 15.9681, "votingPowerChz": 174722405.248 },
+      { "name": "Paris Saint-Germain", "apr": 16.79, "commission": 7, "netApr": 15.6147, "votingPowerChz": 173060589.041 },
+      { "name": "Animoca Brands", "apr": 17.43, "commission": 10, "netApr": 15.687, "votingPowerChz": 169946920.459 },
+      { "name": "Cointelegraph Decentralization Guardians", "apr": 17.22, "commission": 10, "netApr": 15.498, "votingPowerChz": 158594783.108 }
+    ]
+  },
+  {
+    "totalStake": 2570247923.783,
+    "validators": [
+      { "name": "Luganodes", "apr": 18.12, "commission": 10, "netApr": 16.308, "votingPowerChz": 270500125.454 },
+      { "name": "OKX", "apr": 17.83, "commission": 1, "netApr": 17.6517, "votingPowerChz": 228656874.793 },
+      { "name": "Allnodes", "apr": 18.24, "commission": 5, "netApr": 17.328, "votingPowerChz": 227899978.143 },
+      { "name": "InfStones", "apr": 17.58, "commission": 10, "netApr": 15.822, "votingPowerChz": 222442536.394 },
+      { "name": "Socios.com", "apr": 17.97, "commission": 7, "netApr": 16.7121, "votingPowerChz": 208955582.692 },
+      { "name": "Paribu", "apr": 17.66, "commission": 5, "netApr": 16.777, "votingPowerChz": 208650806.971 },
+      { "name": "Mercado Bitcoin", "apr": 18.54, "commission": 5, "netApr": 17.613, "votingPowerChz": 208375160.077 },
+      { "name": "Meria", "apr": 19.47, "commission": 5, "netApr": 18.4965, "votingPowerChz": 206405560.516 },
+      { "name": "Exaion", "apr": 18.42, "commission": 5, "netApr": 17.499, "votingPowerChz": 182223567.132 },
+      { "name": "Ankr", "apr": 18.47, "commission": 7, "netApr": 17.1771, "votingPowerChz": 174850802.901 },
+      { "name": "Paris Saint-Germain", "apr": 17.53, "commission": 7, "netApr": 16.3029, "votingPowerChz": 173232020.114 },
+      { "name": "Animoca Brands", "apr": 2.5, "commission": 10, "netApr": 2.25, "votingPowerChz": 169345876.676 },
+      { "name": "Cointelegraph Decentralization Guardians", "apr": 18.42, "commission": 10, "netApr": 16.578, "votingPowerChz": 158538721.651 }
+    ]
+  },
+  {
+    "totalStake": 2639458995.678,
+    "validators": [
+      { "name": "Luganodes", "apr": 17.52, "commission": 10, "netApr": 15.768, "votingPowerChz": 270590937.702 },
+      { "name": "OKX", "apr": 17.23, "commission": 1, "netApr": 17.0577, "votingPowerChz": 232567011.543 },
+      { "name": "Allnodes", "apr": 17.39, "commission": 5, "netApr": 16.5205, "votingPowerChz": 227865388.413 },
+      { "name": "InfStones", "apr": 17.24, "commission": 10, "netApr": 15.516, "votingPowerChz": 222992983.234 },
+      { "name": "Paribu", "apr": 18.18, "commission": 5, "netApr": 17.271, "votingPowerChz": 208633804.884 },
+      { "name": "Mercado Bitcoin", "apr": 17.08, "commission": 5, "netApr": 16.226, "votingPowerChz": 208375160.077 },
+      { "name": "Socios.com", "apr": 17.69, "commission": 7, "netApr": 16.4517, "votingPowerChz": 208192455.599 },
+      { "name": "Meria", "apr": 18.79, "commission": 5, "netApr": 17.8505, "votingPowerChz": 206418404.779 },
+      { "name": "Exaion", "apr": 17.34, "commission": 5, "netApr": 16.473, "votingPowerChz": 182197670.173 },
+      { "name": "Ankr", "apr": 17.23, "commission": 7, "netApr": 16.0239, "votingPowerChz": 174930882.269 },
+      { "name": "Paris Saint-Germain", "apr": 16.96, "commission": 7, "netApr": 15.7728, "votingPowerChz": 173232020.114 },
+      { "name": "Animoca Brands", "apr": 11.93, "commission": 10, "netApr": 10.737, "votingPowerChz": 169214780.846 },
+      { "name": "Cointelegraph Decentralization Guardians", "apr": 17.25, "commission": 10, "netApr": 15.525, "votingPowerChz": 158583531.045 }
+    ]
+  },
+  {
+    "totalStake": 2642598505.748,
+    "validators": [
+      { "name": "Luganodes", "apr": 17.01, "commission": 10, "netApr": 15.309, "votingPowerChz": 270699306.66 },
+      { "name": "OKX", "apr": 17.12, "commission": 1, "netApr": 16.9488, "votingPowerChz": 232417526.866 },
+      { "name": "Allnodes", "apr": 16.67, "commission": 5, "netApr": 15.8365, "votingPowerChz": 227866388.413 },
+      { "name": "InfStones", "apr": 17.22, "commission": 10, "netApr": 15.498, "votingPowerChz": 223169735.232 },
+      { "name": "Paribu", "apr": 16.9, "commission": 5, "netApr": 16.055, "votingPowerChz": 208633804.884 },
+      { "name": "Mercado Bitcoin", "apr": 16.82, "commission": 5, "netApr": 15.979, "votingPowerChz": 208530052.039 },
+      { "name": "Socios.com", "apr": 16.55, "commission": 7, "netApr": 15.3915, "votingPowerChz": 208271413.524 },
+      { "name": "Meria", "apr": 19.69, "commission": 5, "netApr": 18.7055, "votingPowerChz": 206343552.309 },
+      { "name": "Exaion", "apr": 16.91, "commission": 5, "netApr": 16.0645, "votingPowerChz": 182197670.173 },
+      { "name": "Ankr", "apr": 17.2, "commission": 7, "netApr": 15.996, "votingPowerChz": 174924557.891 },
+      { "name": "Paris Saint-Germain", "apr": 16.41, "commission": 7, "netApr": 15.2613, "votingPowerChz": 173252626.763 },
+      { "name": "Animoca Brands", "apr": 17.35, "commission": 10, "netApr": 15.615, "votingPowerChz": 169086420.535 },
+      { "name": "Cointelegraph Decentralization Guardians", "apr": 17.2, "commission": 10, "netApr": 15.48, "votingPowerChz": 158623104.379 }
+    ]
+  },
+  {
+    "totalStake": 2645600431.183,
+    "validators": [
+      { "name": "Luganodes", "apr": 17.08, "commission": 10, "netApr": 15.372, "votingPowerChz": 270807617.749 },
+      { "name": "OKX", "apr": 16.6, "commission": 1, "netApr": 16.434, "votingPowerChz": 232789390.853 },
+      { "name": "Allnodes", "apr": 17.29, "commission": 5, "netApr": 16.4255, "votingPowerChz": 228071933.439 },
+      { "name": "InfStones", "apr": 17.87, "commission": 10, "netApr": 16.083, "votingPowerChz": 223473063.36 },
+      { "name": "Paribu", "apr": 17.43, "commission": 5, "netApr": 16.5585, "votingPowerChz": 208633804.884 },
+      { "name": "Socios.com", "apr": 16.41, "commission": 7, "netApr": 15.2613, "votingPowerChz": 208874407.113 },
+      { "name": "Mercado Bitcoin", "apr": 16.74, "commission": 5, "netApr": 15.903, "votingPowerChz": 208530052.039 },
+      { "name": "Meria", "apr": 18.64, "commission": 5, "netApr": 17.708, "votingPowerChz": 205978264.829 },
+      { "name": "Exaion", "apr": 17.77, "commission": 5, "netApr": 16.8815, "votingPowerChz": 182295220.349 },
+      { "name": "Ankr", "apr": 16.65, "commission": 7, "netApr": 15.4845, "votingPowerChz": 174924557.891 },
+      { "name": "Paris Saint-Germain", "apr": 16.19, "commission": 7, "netApr": 15.0567, "votingPowerChz": 173304973.844 },
+      { "name": "Animoca Brands", "apr": 17.09, "commission": 10, "netApr": 15.381, "votingPowerChz": 169141226.28 },
+      { "name": "Cointelegraph Decentralization Guardians", "apr": 16.94, "commission": 10, "netApr": 15.246, "votingPowerChz": 158664851.188 }
+    ]
+  },
+  {
+    "totalStake": 2655141049.037,
+    "validators": [
+      { "name": "Luganodes", "apr": 17.0, "commission": 10, "netApr": 15.3, "votingPowerChz": 270917681.241 },
+      { "name": "OKX", "apr": 16.89, "commission": 1, "netApr": 16.7211, "votingPowerChz": 230608811.39 },
+      { "name": "InfStones", "apr": 16.82, "commission": 10, "netApr": 15.138, "votingPowerChz": 223570189.49 },
+      { "name": "Allnodes", "apr": 18.42, "commission": 5, "netApr": 17.499, "votingPowerChz": 209245008.975 },
+      { "name": "Paribu", "apr": 17.26, "commission": 5, "netApr": 16.397, "votingPowerChz": 208765389.193 },
+      { "name": "Socios.com", "apr": 16.72, "commission": 7, "netApr": 15.5496, "votingPowerChz": 208688324.502 },
+      { "name": "Mercado Bitcoin", "apr": 17.24, "commission": 5, "netApr": 16.378, "votingPowerChz": 208675706.149 },
+      { "name": "Meria", "apr": 18.66, "commission": 5, "netApr": 17.727, "votingPowerChz": 206123356.441 },
+      { "name": "Exaion", "apr": 17.05, "commission": 5, "netApr": 16.1975, "votingPowerChz": 182410103.354 },
+      { "name": "Ankr", "apr": 17.61, "commission": 7, "netApr": 16.3773, "votingPowerChz": 174924557.891 },
+      { "name": "Paris Saint-Germain", "apr": 16.97, "commission": 7, "netApr": 15.7821, "votingPowerChz": 173188594.583 },
+      { "name": "Animoca Brands", "apr": 16.67, "commission": 10, "netApr": 15.003, "votingPowerChz": 169195132.431 },
+      { "name": "Cointelegraph Decentralization Guardians", "apr": 17.18, "commission": 10, "netApr": 15.462, "votingPowerChz": 158664851.188 }
+    ]
+  },
+  {
+    "totalStake": 2624091017.237,
+    "validators": [
+        { "name": "Luganodes", "apr": 17.15, "commission": 10, "netApr": 15.435, "votingPowerChz": 270917681.241 },
+        { "name": "OKX", "apr": 16.77, "commission": 1, "netApr": 16.6023, "votingPowerChz": 230608811.39 },
+        { "name": "InfStones", "apr": 17.55, "commission": 10, "netApr": 15.795, "votingPowerChz": 223467341.524 },
+        { "name": "Allnodes", "apr": 17.77, "commission": 5, "netApr": 16.8815, "votingPowerChz": 209635704.549 },
+        { "name": "Paribu", "apr": 17.43, "commission": 5, "netApr": 16.5585, "votingPowerChz": 208765389.193 },
+        { "name": "Socios.com", "apr": 17.08, "commission": 7, "netApr": 15.8844, "votingPowerChz": 208695379.065 },
+        { "name": "Mercado Bitcoin", "apr": 17.09, "commission": 5, "netApr": 16.2355, "votingPowerChz": 208675706.149 },
+        { "name": "Meria", "apr": 18.60, "commission": 5, "netApr": 17.67, "votingPowerChz": 204886741.138 },
+        { "name": "Exaion", "apr": 16.98, "commission": 5, "netApr": 16.131, "votingPowerChz": 182410103.354 },
+        { "name": "Ankr", "apr": 17.12, "commission": 7, "netApr": 15.9216, "votingPowerChz": 174924557.891 },
+        { "name": "Paris Saint-Germain", "apr": 17.26, "commission": 7, "netApr": 16.0518, "votingPowerChz": 173188594.583 },
+        { "name": "Animoca Brands", "apr": 17.00, "commission": 10, "netApr": 15.3, "votingPowerChz": 169250155.972 },
+        { "name": "Cointelegraph Decentralization Guardians", "apr": 16.73, "commission": 10, "netApr": 15.057, "votingPowerChz": 158664851.188 }
+    ]
+  },
+  {
+    "totalStake": 2623758297.844,
+    "validators": [
+        { "name": "Luganodes", "apr": 17.17, "commission": 10, "netApr": 15.453, "votingPowerChz": 271140401.256 },
+        { "name": "OKX", "apr": 17.76, "commission": 1, "netApr": 17.5824, "votingPowerChz": 230875606.1 },
+        { "name": "InfStones", "apr": 16.86, "commission": 10, "netApr": 15.174, "votingPowerChz": 223562949.91 },
+        { "name": "Allnodes", "apr": 17.22, "commission": 5, "netApr": 16.359, "votingPowerChz": 210654072.296 },
+        { "name": "Mercado Bitcoin", "apr": 17.77, "commission": 5, "netApr": 16.8815, "votingPowerChz": 209235068.791 },
+        { "name": "Paribu", "apr": 16.43, "commission": 5, "netApr": 15.6085, "votingPowerChz": 209215178.39 },
+        { "name": "Socios.com", "apr": 16.76, "commission": 7, "netApr": 15.5868, "votingPowerChz": 207627741.416 },
+        { "name": "Meria", "apr": 18.41, "commission": 5, "netApr": 17.4895, "votingPowerChz": 204971799.992 },
+        { "name": "Exaion", "apr": 17.59, "commission": 5, "netApr": 16.7105, "votingPowerChz": 182817703.354 },
+        { "name": "Ankr", "apr": 17.22, "commission": 7, "netApr": 16.0146, "votingPowerChz": 174924557.891 },
+        { "name": "Paris Saint-Germain", "apr": 16.75, "commission": 7, "netApr": 15.5775, "votingPowerChz": 173235679.599 },
+        { "name": "Animoca Brands", "apr": 17.74, "commission": 10, "netApr": 15.966, "votingPowerChz": 169250155.972 },
+        { "name": "Cointelegraph Decentralization Guardians", "apr": 16.86, "commission": 10, "netApr": 15.174, "votingPowerChz": 156247382.877 }
+    ]
+  },
+  {
+    "totalStake": 2624879323,
+    "validators": [
+        { "name": "Luganodes", "apr": 17.45, "commission": 10, "netApr": 15.705, "votingPowerChz": 271253323.107 },
+        { "name": "OKX", "apr": 17.55, "commission": 1, "netApr": 17.3745, "votingPowerChz": 230993223.142 },
+        { "name": "InfStones", "apr": 17.61, "commission": 10, "netApr": 15.849, "votingPowerChz": 223562949.91 },
+        { "name": "Allnodes", "apr": 17.43, "commission": 5, "netApr": 16.5585, "votingPowerChz": 211285039.507 },
+        { "name": "Mercado Bitcoin", "apr": 17.49, "commission": 5, "netApr": 16.6155, "votingPowerChz": 209312958.723 },
+        { "name": "Paribu", "apr": 16.46, "commission": 5, "netApr": 15.637, "votingPowerChz": 209298962.906 },
+        { "name": "Socios.com", "apr": 16.85, "commission": 7, "netApr": 15.6705, "votingPowerChz": 207622533.348 },
+        { "name": "Meria", "apr": 18.21, "commission": 5, "netApr": 17.2995, "votingPowerChz": 204940651.178 },
+        { "name": "Exaion", "apr": 16.78, "commission": 5, "netApr": 15.941, "votingPowerChz": 182818751.709 },
+        { "name": "Ankr", "apr": 17.07, "commission": 7, "netApr": 15.8751, "votingPowerChz": 174924557.891 },
+        { "name": "Paris Saint-Germain", "apr": 16.79, "commission": 7, "netApr": 15.6147, "votingPowerChz": 173175106.276 },
+        { "name": "Animoca Brands", "apr": 17.75, "commission": 10, "netApr": 15.975, "votingPowerChz": 169363432.901 },
+        { "name": "Cointelegraph Decentralization Guardians", "apr": 16.83, "commission": 10, "netApr": 15.147, "votingPowerChz": 156327837.303 }
+    ]
+  },
+  {
+    "totalStake": 2620511324.007,
+    "validators": [
+        { "name": "Luganodes", "apr": 16.90, "commission": 10, "netApr": 15.21, "votingPowerChz": 271364937.805 },
+        { "name": "OKX", "apr": 17.32, "commission": 1, "netApr": 17.1468, "votingPowerChz": 228371106.675 },
+        { "name": "InfStones", "apr": 17.22, "commission": 10, "netApr": 15.498, "votingPowerChz": 223678344.214 },
+        { "name": "Allnodes", "apr": 16.66, "commission": 5, "netApr": 15.827, "votingPowerChz": 211336285.138 },
+        { "name": "Mercado Bitcoin", "apr": 17.66, "commission": 5, "netApr": 16.777, "votingPowerChz": 209374889.652 },
+        { "name": "Paribu", "apr": 17.04, "commission": 5, "netApr": 16.188, "votingPowerChz": 209339545.823 },
+        { "name": "Socios.com", "apr": 17.33, "commission": 7, "netApr": 16.1169, "votingPowerChz": 207619340.508 },
+        { "name": "Meria", "apr": 18.47, "commission": 5, "netApr": 17.5465, "votingPowerChz": 204999302.207 },
+        { "name": "Exaion", "apr": 17.32, "commission": 5, "netApr": 16.454, "votingPowerChz": 182713530.633 },
+        { "name": "Ankr", "apr": 17.62, "commission": 7, "netApr": 16.3866, "votingPowerChz": 175309205.201 },
+        { "name": "Paris Saint-Germain", "apr": 17.19, "commission": 7, "netApr": 15.9867, "votingPowerChz": 173175106.276 },
+        { "name": "Animoca Brands", "apr": 17.43, "commission": 10, "netApr": 15.687, "votingPowerChz": 169419579.364 },
+        { "name": "Cointelegraph Decentralization Guardians", "apr": 17.09, "commission": 10, "netApr": 15.381, "votingPowerChz": 153810150.511 }
     ]
   }
 ];
